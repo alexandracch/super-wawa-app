@@ -35,30 +35,29 @@
                 </nav>
                 <br>
                 <br>
-                <select class="browser-default">
+                <select class="browser-default" id="sexo-wawa">
                     <option value="" disabled selected>Sexo de tu wawa</option>
                     <option value="1">Femenino</option>
                     <option value="2">Masculino</option>
                 </select>
                 <br>
                 <br>
-                <form>
+                <form id="CreateForm">
                     <h6 class="center-text">Fecha de nacimiento</h6>
                     <input type="date" name="fecha" min="2010-01-01"
                     max="2018-12-31" step="2">
                     <br>
                     <br>
                     <h6>Altura (cm)</h6>
-                   <input type="number" placeholder="Altura (cm)">
+                   <input id="input-altura" type="number" placeholder="Altura (cm)">
                    <br>
                    <br>
                    <h6>Peso (Kg)</h6>
-                  <input type="number" placeholder="Peso(kg)">
-                </form>
+                  <input id="input-peso" type="number" placeholder="Peso(kg)">
                 <br>
 
                 <h5>Opcional</h5>
-                <form>
+                
                     <br>
                     <h6>Perímetro cefálico (cm)</h6>
                     <input type="number" placeholder="Perimetro cefálico (cm)">
@@ -70,15 +69,15 @@
                     <p>IMC = peso en kg / altura al cuadrado en metros</p>
                 </form>
                 <br>
-                <a href="resultados.html" type="submit" id="signup" class="btn  btn-next down">Ver Resultados</a>
+                <button class="btn waves-effect waves-light" id="myButton" type="submit">Enviar</button>
             </div>
         </div>
     </div>
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <scrip src="nav.js"></scrip>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
+    <script src="nav.js"></script>
 </body>
 
 </html>
